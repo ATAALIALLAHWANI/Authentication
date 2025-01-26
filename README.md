@@ -37,7 +37,7 @@ The `addFilterBefore()` method is used to insert a custom filter (`ExceptionHand
 
 2. Navigate to the project directory:
     ```bash
-    cd your-repository
+    cd Authentication
     ```
 
 3. Run the application:
