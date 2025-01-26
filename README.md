@@ -14,7 +14,7 @@ This project demonstrates how to implement **authentication** and **authorizatio
 ## Filter Chain Explained
 
 The image below illustrates how Spring Security filters work during the request lifecycle in this project:  
-![Filter Chain Workflow](image-link-here)
+![Filter Chain Workflow](https://www.google.com/url?sa=i&url=https%3A%2F%2Fkasunprageethdissanayake.medium.com%2Fspring-security-the-security-filter-chain-2e399a1cb8e3&psig=AOvVaw3xd0SOmaqYRFuESk1T2PLa&ust=1738006272385000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCLi4qoaQlIsDFQAAAAAdAAAAABAE)
 
 ### `addFilterBefore()`  
 The `addFilterBefore()` method is used to insert a custom filter (`ExceptionHandlerFilter`) into the filter chain **before** another specified filter (`AuthenticationFilter`). This ensures that exceptions are handled globally before authentication processing begins.  
@@ -32,7 +32,7 @@ The `addFilterBefore()` method is used to insert a custom filter (`ExceptionHand
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/your-username/your-repository.git
+    git clone (https://github.com/ATAALIALLAHWANI/Authentication.git)
     ```
 
 2. Navigate to the project directory:
